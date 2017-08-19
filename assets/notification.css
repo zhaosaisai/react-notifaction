@@ -1,0 +1,59 @@
+.v-notification{
+    width: 100%;
+    box-sizing: border-box;
+    border:solid 1px transparent;
+    position: relative;
+}
+
+/* info */
+.v-notification-info{
+    color: #333;
+    background-color: #fff;
+    border-color: #ccc;
+}
+/* warnning */
+.v-notification-warnning{
+    color: #fff;
+    background-color: #F9D804;
+    border-color: #F9D804;
+}
+/* danger */
+.v-notification-danger{
+    color: #fff;
+    background-color:red;
+    border-color: #fff;
+}
+
+/* normal */
+.v-notification-normal{
+    padding: 6px 12px;
+}
+
+/* small */
+.v-notification-small{
+    padding: 3px 6px;
+    font-size: 12px;
+}
+
+/* large */
+.v-notification-large{
+    padding: 10px 15px;
+}
+
+/* round */
+.v-notification-rounded{
+    border-radius: 5px;
+}
+
+/* closeable */
+.v-notification-close-wrapper{
+    position: absolute;
+    top: 50%;
+    right: 30px;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+.v-notification-close-btn{
+    display: block;
+    font-style: normal;
+}
